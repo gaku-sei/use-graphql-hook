@@ -1,0 +1,24 @@
+{
+  "name": "movies",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["reason-react", "bs-fetch", "bs-abstract"],
+  "ppx-flags": ["graphql_ppx/ppx"],
+  "refmt": 3,
+  "warnings": {
+    "error": "+8"
+  }
+}
